@@ -1,0 +1,95 @@
+@import url('https://fonts.cdnfonts.com/css/telegramoa');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: url(https://png.pngtree.com/background/20230527/original/pngtree-the-weather-is-clear-and-lighting-dim-vector-picture-image_2762375.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.allWeather{
+    width: 120%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.473);
+    color: rgb(189, 224, 255);
+    border-radius: 30px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    border: solid 2px rgb(214, 81, 81);
+    font-family: 'telegramoC', sans-serif;
+}
+.name{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240, 248, 255, 0.412);
+    padding: 10px;
+    border-radius: 9px;
+}
+.toDay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240, 248, 255, 0.412);
+    padding: 10px;
+    border-radius: 9px;
+}
+.sun{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240, 248, 255, 0.412);
+    padding: 10px;
+    border-radius: 9px;
+}
+.temp{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240, 248, 255, 0.412);
+    padding: 10px;
+    border-radius: 9px;
+}
+.weather{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: #3a3b4552;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    font-family: 'telegramoC', sans-serif;
+    transition: border-color 0.3s ease;
+    
+    color: #fff;
+  }
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #d96a6a;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'telegramoC', sans-serif;
+  }
+  
+  button:hover {
+    background-color: #6e2929;
+
+  }
+  
